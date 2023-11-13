@@ -1,0 +1,255 @@
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3  {
+    padding-top: 20px;
+    text-align: center;
+    
+}
+h4{
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.dropdown-content   {
+	font-size: 12px;
+}
+.buttons  {
+    padding: 10px 10px;
+    max-width: 830px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+#seventh    {
+    background-color: #dac399;
+    background-color: rgb(214, 220, 214);
+    border-color: green;
+}
+/* formatting guitar fretboard */
+
+.guitar-neck {
+    /* background-color: white; */
+    background-image: linear-gradient(burlywood, #CC8B69);
+    max-width: 800px;
+    /* margin-left: 153px; */
+    padding-left: 12px;
+}
+.note {
+    background-color: transparent;
+    /*border-radius: 50%;*/
+    /*border-style: none;*/
+    border-color:  white;
+    width:35px;
+    height: 35px;
+    line-height: 36px;
+    text-align:center;
+    font-size: 17px;
+    color: white;
+    margin: 0px 5px 0px 5px;;
+}
+.fret {
+    background-color: white;
+}
+.string-line {
+    border: 1px solid grey;
+}
+
+.fret-line {
+    border: 1px solid grey;
+}
+
+.nut {
+    border: 3px solid black;
+}
+
+
+/* fret numbers below neck */
+
+.nutb {
+    border: 3px solid white;
+
+}
+.fret-number {
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    margin: 5px;
+}
+.noteb {
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    margin: 5px;
+    
+}
+
+#string6 {
+    /*UNUSED, could be a way to lock formatting to strings via div*/
+}
+
+.fret-lineb {
+    border: 1px solid white;
+}
+
+/* Color Keys and all options below the neck */
+
+.key    {
+    padding-left: 15px;
+}
+.keys   {
+	font-size: 12px;
+}
+#key-root {
+    background-color: red;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+#key-third {
+    background-color: black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+#key-fifth {
+    background-color: blue;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+#key-seventh {
+    background-color: green;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}
+#color-toggle {
+    margin-left: 155px;
+    margin-right: 50px;
+}
+#keyButton {
+	    border-radius: 10%;
+	    box-shadow: 1px 1px #858585;
+}
+#scaleButton {
+	    border-radius: 10%;
+	    box-shadow: 1px 1px #858585;
+}
+#practice {
+    margin-left: 152px;
+    margin-right: 50px;
+}
+#timer {
+    font-size: 35px;
+    width: 60px;
+    margin-left: 235px;
+}
+
+/* Drop down button */
+
+.dropbtn {
+  background-color: #dba15a;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+/* same content for the second dropdown */
+
+.dropbtnb {
+  background-color: #dba15a;
+  color: white;
+  padding: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtnb:hover, .dropbtnb:focus {
+  background-color: #2980B9;
+}
+
+.dropdownb {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentb {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentb a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownb a:hover {background-color: #ddd;}
+
+.showb {display: block;}
